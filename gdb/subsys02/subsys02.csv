@@ -1,0 +1,2 @@
+﻿ar,eps,aocs,tcs,strsn,li,sa,ra,ac,ct
+"{""name"":ARCH001,""type"":Architecture}","{""name"":EPS,""type"":Subsystem}","{""name"":AOCS,""type"":Subsystem}","{""name"":TCS,""type"":Subsystem}","{""name"":Star Sensor,""type"":Component}","{""name"":LiDAR,""type"":Component}","{""name"":Solar Array,""type"":Component}","{""name"":Radiator,""type"":Component}","{""name"":Accuracy,""type"":Metric}","{""name"":Cost,""type"":Metric}"

@@ -1,0 +1,104 @@
+﻿[
+  {
+    "ar": {
+"identity": 360,
+"labels": [
+        "Architecture"
+      ],
+"properties": {
+"name": "ARCH001",
+"type": "Architecture"
+      }
+    },
+    "eps": {
+"identity": 361,
+"labels": [
+        "EPS"
+      ],
+"properties": {
+"name": "EPS",
+"type": "Subsystem"
+      }
+    },
+    "aocs": {
+"identity": 362,
+"labels": [
+        "AOCS"
+      ],
+"properties": {
+"name": "AOCS",
+"type": "Subsystem"
+      }
+    },
+    "tcs": {
+"identity": 363,
+"labels": [
+        "TCS"
+      ],
+"properties": {
+"name": "TCS",
+"type": "Subsystem"
+      }
+    },
+    "strsn": {
+"identity": 364,
+"labels": [
+        "Star"
+      ],
+"properties": {
+"name": "Star Sensor",
+"type": "Component"
+      }
+    },
+    "li": {
+"identity": 365,
+"labels": [
+        "lidar"
+      ],
+"properties": {
+"name": "LiDAR",
+"type": "Component"
+      }
+    },
+    "sa": {
+"identity": 366,
+"labels": [
+        "solar"
+      ],
+"properties": {
+"name": "Solar Array",
+"type": "Component"
+      }
+    },
+    "ra": {
+"identity": 367,
+"labels": [
+        "radiator"
+      ],
+"properties": {
+"name": "Radiator",
+"type": "Component"
+      }
+    },
+    "ac": {
+"identity": 368,
+"labels": [
+        "accuracy"
+      ],
+"properties": {
+"name": "Accuracy",
+"type": "Metric"
+      }
+    },
+    "ct": {
+"identity": 369,
+"labels": [
+        "cost"
+      ],
+"properties": {
+"name": "Cost",
+"type": "Metric"
+      }
+    }
+  }
+]
