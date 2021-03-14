@@ -1,0 +1,117 @@
+﻿[
+  {
+    "ar": {
+"identity": 644,
+"labels": [
+        "Architecture"
+      ],
+"properties": {
+"designDecisions": "1. Good robustness, 2. Good Synergy",
+"name": "ARCH001",
+"score": 5,
+"rank": 1,
+"labels": "Architecture"
+      }
+    },
+    "axle1": {
+"identity": 652,
+"labels": [
+        "axle1"
+      ],
+"properties": {
+"name": "Frontaxle_diff_0",
+"labels": "Component"
+      }
+    },
+    "axle2": {
+"identity": 653,
+"labels": [
+        "axle2"
+      ],
+"properties": {
+"name": "Rearaxle_diff_0",
+"labels": "Component"
+      }
+    },
+    "torq": {
+"identity": 651,
+"labels": [
+        "Torq"
+      ],
+"properties": {
+"name": "Torque_coupler_0",
+"labels": "Component"
+      }
+    },
+    "mtr0": {
+"identity": 648,
+"labels": [
+        "Motor0"
+      ],
+"properties": {
+"name": "Motor_0",
+"labels": "Component"
+      }
+    },
+    "mtr1": {
+"identity": 649,
+"labels": [
+        "Motor1"
+      ],
+"properties": {
+"name": "Motor_1",
+"labels": "Component"
+      }
+    },
+    "mtr2": {
+"identity": 650,
+"labels": [
+        "Motor2"
+      ],
+"properties": {
+"name": "Motor_2",
+"labels": "Component"
+      }
+    },
+    "bat": {
+"identity": 647,
+"labels": [
+        "BAT"
+      ],
+"properties": {
+"name": "Battery_0",
+"labels": "Component"
+      }
+    },
+    "ice": {
+"identity": 645,
+"labels": [
+        "ICE"
+      ],
+"properties": {
+"name": "ICE_0",
+"labels": "Engine"
+      }
+    },
+    "gen": {
+"identity": 646,
+"labels": [
+        "GEN"
+      ],
+"properties": {
+"name": "Generator_0",
+"labels": "Component"
+      }
+    },
+    "veh": {
+"identity": 654,
+"labels": [
+        "vehicle"
+      ],
+"properties": {
+"name": "Vehicle_0",
+"labels": "System"
+      }
+    }
+  }
+]
