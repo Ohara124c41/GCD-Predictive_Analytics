@@ -1,1 +1,6 @@
 pip install --editable /content/gcd
+
+%run /content/gcd/host.py
+
+pip install --editable /content/gcd-plugin
+
