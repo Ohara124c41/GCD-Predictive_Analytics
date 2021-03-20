@@ -49,7 +49,7 @@ class Ility_Manager:
             ilities=qual_score_list
         )
         performance_comments = self.hook.gcd_average_score(
-            quant=quant_score_list
+            score=quant_score_list
         )
         print(f"Your Qualitative Attributes. Please consider {', '.join(self.quant)}")
         print(f"Some Qualitative Aspects? Examples for satellite subsystems include: {', '.join(qual_score_list.keys())}")
