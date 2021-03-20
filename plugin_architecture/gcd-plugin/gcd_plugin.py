@@ -22,15 +22,16 @@ def gcd_ilities_score(ilities):
     return "This looks like a system engineering problem..."
 
 @gcd.hookimpl
-def gcd_average_score(quant):
+def gcd_average_score(score):
     """Here the caller expects us to return a list."""
-    if "Performance" in quant:
+    score = "Performance" 
+    if "Performance" in score:
         designer1_score = 5
         designer2_score = 4
         designer3_score = 4
         average_score = (designer1_score + designer2_score + designer3_score)/3
         feedback = print("The average score for Performance is {}" .format(average_score))
 
-#    else:
-#        feedback = ["Do-Performance-Scoring", "Performance-Not-Scored"]
+    else:
+        feedback = "Do-Performance-Scoring" 
     return feedback
