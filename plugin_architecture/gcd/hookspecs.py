@@ -24,3 +24,10 @@ def gcd_average_score(score: dict):
     :param ilities: some QAs and stuff
     :return: a witty comment about your activity
     """
+
+@hookspec
+def create_json(xform: dict): 
+    """Reorganize the ilities tray to your heart's content.
+    :param ilities: some QAs and stuff
+    :return: a witty comment about your activity
+    """
