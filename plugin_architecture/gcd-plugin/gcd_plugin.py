@@ -24,7 +24,7 @@ def gcd_ilities_score(ilities):
 @gcd.hookimpl
 def gcd_average_score(score):
     """Here the caller expects us to return a list."""
-    score = "Performance" 
+    score = "Performance" #"Time"
     if "Performance" in score:
         designer1_score = 5
         designer2_score = 4
@@ -35,3 +35,5 @@ def gcd_average_score(score):
     else:
         feedback = "Do-Performance-Scoring" 
     return feedback
+
+
