@@ -46,5 +46,5 @@ else:
   json_object["Assessment"] = "This architecture is considerable, the SCORE is %d" % (score)
 
 a_file = open("ARCH01.json", "w")
-json.dump(json_object, a_file)
+json.dump(json_object, a_file, indent=4)
 a_file.close()
