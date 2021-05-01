@@ -1,3 +1,4 @@
+import json
 import csv
 with open('/content/notes.csv') as f:
     a_dictionary = dict(filter(None, csv.reader(f)))
@@ -18,6 +19,6 @@ print(note1, note2, note3, note4, note5)
 json_notes = {'note1': note1, 'note2': note2, 'note3': note3, 'note4': note4, 'note5': note5}
 json_object["designer_notes"] = json_notes
 
-a_file = open("designer01.json", "w")
-json.dump(json_object, a_file)
+a_file = open("ARCH01.json", "w")
+json.dump(json_object, a_file, indent=4)
 a_file.close()
