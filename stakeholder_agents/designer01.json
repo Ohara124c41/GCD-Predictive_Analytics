@@ -1,0 +1,26 @@
+{
+   "type":"node",
+   "id":"0",
+   "labels":[
+      "User"
+   ],
+   "properties":{
+      "born":"2015-07-04T19:32:24",
+      "name":"Adam",
+      "quant-metrics":{
+         "acc":"99%",
+         "response-time":30,
+         "range":1000
+      },
+      "qual-metrics":{
+         "synergy":null,
+         "usability":5,
+         "maturity":null
+      },
+      "components":[
+         "LiDAR",
+         "StarSensor",
+         "RADAR"
+      ]
+   }
+}
