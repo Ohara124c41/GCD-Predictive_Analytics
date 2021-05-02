@@ -4,7 +4,7 @@ import os
 import sys
 
 access_key = 'AKIA2B2CNOEEV5C6OCVY'
-secret_access_key = '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'
+secret_access_key = ''
 
 
 
