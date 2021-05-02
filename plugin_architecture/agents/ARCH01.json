@@ -1,0 +1,45 @@
+{
+    "type": "node",
+    "id": "001",
+    "labels": "Architecture",
+    "properties": {
+        "born": "2021-01-05T19:32:24",
+        "name": "Agent02",
+        "quant-metrics": {
+            "acc": "99%",
+            "response-time": 30,
+            "range": 1000
+        },
+        "components": [
+            "LiDAR",
+            "StarSensor",
+            "RADAR"
+        ]
+    },
+    "agent2-qual-metrics": {
+        "synergy": 5,
+        "usability": 3,
+        "maturity": 5
+    },
+    "A2-DD1": "synergy is good",
+    "A2-DD2": "usability is nominal",
+    "A2-DD3": "maturity is good",
+    "A2-Assessment": "This architecture is excellent, the SCORE is 13",
+    "agent1-qual-metrics": {
+        "synergy": 4,
+        "usability": 5,
+        "maturity": 3
+    },
+    "A1-DD1": "synergy is good",
+    "A1-DD2": "usability is good",
+    "A1-DD3": "maturity is nominal",
+    "A1-Assessment": "This architecture is considerable, the SCORE is 12",
+    "designer1_notes": {
+        "note1": "Sufficient; sufficient.",
+        "note2": "Sufficient; excellent."
+    },
+    "designer2_notes": {
+        "note1": "Disruptive; concurrent.",
+        "note2": "Rapid; rapid; rapid."
+    }
+}
